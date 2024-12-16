@@ -1,0 +1,1628 @@
+:root {
+  /* background-color: rgb(210, 192, 30); */
+  background-color: #f5e4ac;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.png_group3 {
+  position: absolute;
+  width: 239px;
+  height: 40px;
+  top: 25px;
+  left: 283px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.png_lg1 {
+  position: absolute;
+  width: 108.75px;
+  height: 80px;
+  top: 5px;
+  left: 666px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.png_group14 {
+  /* Group 14 */
+
+  position: absolute;
+  width: 272.38px;
+  height: 40px;
+  left: 922px;
+  top: 25px;
+}
+.main_container {
+}
+.navigation {
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  height: 50px;
+  left: 0px;
+  top: 90px;
+  background: #ffffff;
+}
+.navigation_wrap {
+  width: 846px;
+  height: 17px;
+  top: 110px;
+  left: 297px;
+  gap: 42px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-left: 290px;
+}
+.Group17 {
+  position: absolute;
+  width: 1263px;
+  object-fit: contain;
+  height: 501px;
+  left: 0px;
+  top: 108px;
+}
+.text_label {
+  position: absolute;
+  width: 490px;
+  height: 69px;
+  left: 152px;
+  top: 160px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 40px;
+  leading-trim: both;
+  text-edge: cap;
+  color: #383434;
+}
+.p {
+  /* Men ống vi sinh Bio-meracine 2 Bil với 2 tỉ bào tử lợi khuẩn cho hệ tiêu hóa khỏe được sản xuất theo công nghệ BFS hiện đại nhất hiện nay. */
+
+  position: absolute;
+  width: 560px;
+  height: 66px;
+  left: 152px;
+  top: 356px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #383434;
+}
+.text_label1 {
+  /* Men ống vi sinh Bio-meracine 2 Bil với 2 tỉ bào tử lợi khuẩn cho hệ tiêu hóa khỏe được sản xuất theo công nghệ BFS hiện đại nhất hiện nay. */
+
+  position: absolute;
+  width: 452px;
+  height: 66px;
+  left: 152px;
+  top: 270px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  leading-trim: both;
+  text-edge: cap;
+  color: #383434;
+}
+.text_label2 {
+  /* 150.000 vnđ */
+
+  position: absolute;
+  width: 199px;
+  height: 22px;
+  left: 152px;
+  top: 350px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #01385f;
+}
+
+.text_label3 {
+  /* 250.000 vnđ */
+
+  position: absolute;
+  width: 148px;
+  height: 17px;
+  left: 377px;
+  top: 360px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-decoration-line: line-through;
+
+  color: #383434;
+}
+.text_label4 {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  left: 152px;
+  top: 415px;
+  font-size: 24px;
+}
+.click_buy {
+  padding: 5px;
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.title {
+  /* Men ống vi sinh Bio-meracine */
+
+  position: absolute;
+  width: 593px;
+  height: 22px;
+  left: 360px;
+  top: 720px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+
+.sun {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 233px;
+  top: 802px;
+
+  background: #f2da8a;
+  border-radius: 146px;
+}
+.img_medicine {
+  /* Bản sao của IMG_5135 copy_resize copy 1 */
+
+  position: absolute;
+  width: 198px;
+  height: 200px;
+  left: 250px;
+  top: 864px;
+}
+.spover {
+  /* SẢN PHẨM OVISURE */
+  position: absolute;
+  width: 438px;
+  height: 14px;
+  left: 130px;
+  top: 1074px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.paragraph {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốt . Ovisure còn chứa canxi protein và chất gốc sulfate giúp dễ tiêu hóa , dễ hấp thu và phù hợp cho người có dạ dày nhạy cảm . */
+
+  position: absolute;
+  width: 512px;
+  height: 154px;
+  left: 110px;
+  top: 1112px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525151;
+}
+.maintainer {
+  /* Rectangle 1 */
+  z-index: -999;
+  position: absolute;
+  width: 560px;
+  height: 400px;
+  left: 80px;
+  top: 942px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.buy {
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 190px;
+  top: 1245px;
+  font-size: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background: #e5c352;
+}
+.details {
+  /* Group 8 */
+
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 360px;
+  top: 1245px;
+  font-size: 24px;
+  border: 1px solid #e5c352;
+  border-radius: 50px;
+  text-align: center;
+  color: #e5c352;
+  font-weight: 700;
+  background: #ffffff;
+}
+.sun2 {
+  /* Rectangle 42 */
+
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 888px;
+  top: 802px;
+
+  background: #dabf61;
+  border-radius: 146px;
+}
+.img_medicine2 {
+  /* new1 copy 1 */
+
+  position: absolute;
+  width: 223px;
+  height: 238px;
+  left: 908px;
+  top: 850px;
+}
+.spover2 {
+  /* SẢN PHẨM HEVISURE */
+
+  position: absolute;
+  width: 438px;
+  height: 14px;
+  left: 789px;
+  top: 1074px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.paragraph2 {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốt . Ovisure còn chứa canxi protein và chất gốc sulfate giúp dễ tiêu hóa , dễ hấp thu và phù hợp cho người có dạ dày nhạy cảm . */
+
+  position: absolute;
+  width: 512px;
+  height: 154px;
+  left: 740px;
+  top: 1112px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525151;
+}
+.maintainer2 {
+  /* Rectangle 1 */
+  z-index: -999;
+  position: absolute;
+  width: 560px;
+  height: 400px;
+  left: 703px;
+  top: 942px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.buy2 {
+  /* Group 12 */
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 836px;
+  top: 1245px;
+  font-size: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  background: #e5c352;
+}
+.details2 {
+  /* Group 12 */
+
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 1006px;
+  top: 1245px;
+  font-size: 24px;
+  border: 1px solid #e5c352;
+  border-radius: 50px;
+  text-align: center;
+  color: #e5c352;
+  font-weight: 700;
+  background: #ffffff;
+}
+.img_size_max {
+  /* Group 13 */
+
+  position: absolute;
+  width: 1441px;
+  height: 852px;
+  left: 1px;
+  top: 1440px;
+}
+.p_one {
+  /* 5 LÝ DO NÊN CHỌN SỮA HẠT */
+
+  position: absolute;
+  width: 910px;
+  height: 122px;
+  left: calc(50% - 910px / 2);
+  top: 1526px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 26px;
+  /* or 52% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #01385f;
+}
+.p_two {
+  /* Theo Tổ chức Nutrition Australia (Úc), các loại sữa hạt như: sữa hạt óc chó, sữa hạnh nhân…còn là nguồn dinh dưỡng tối ưu và an toàn đặc biệt với những người dị ứng với sữa động vật, vì góp phần mang đến cho bạn những dưỡng chất cần thiế */
+
+  position: absolute;
+  width: 470px;
+  height: 76px;
+  left: calc(50% - 470px / 2 - 3px);
+  top: 1695px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #006498;
+}
+.p_three {
+  /* Sữa Hạt dễ uống và rất thơm, dậy mùi bắp, bên cạnh đó không chứa cholesterol nên cực tốt cho sức khoẻ, an toàn và lành tính vì không có lactose như sữa động vật. */
+
+  position: absolute;
+  width: 387px;
+  height: 76px;
+  left: 164px;
+  top: 1824px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #006498;
+}
+.img_sm {
+  /* Bản sao của Hevisure Gold White BG copy 2 */
+
+  position: absolute;
+  width: 329px;
+  height: 414px;
+  left: 556px;
+  top: 1771px;
+}
+.p_four {
+  /* Phần lớn các loại hạt đều giàu protein tự nhiên, cung cấp cho cơ thể nguồn năng lượng thiết yếu, tham gia vào quá trình trao đổi chất và dẫn truyền thần kinh, tái tạo và củng cố cơ bắp giúp cơ thể săn chắc, khỏe mạnh. */
+
+  position: absolute;
+  width: 387px;
+  height: 98px;
+  left: 152px;
+  top: 1965px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #006498;
+}
+.p_five {
+  /* Sữa Hạt lành tính hơn sữa bò hay các loại sữa từ động vật, do đó hầu như phù hợp với mọi người, mọi lứa tuổi. */
+
+  position: absolute;
+  width: 353px;
+  height: 54px;
+  left: 924px;
+  top: 1857px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #006498;
+}
+.p_six {
+  /* Chứa chỉ số GI (Glycemic Index) hay còn gọi là chỉ số đường huyết thấp, góp phần giữ nồng độ glucose và đường huyết luôn ổn định, theo Tổ chức Nghiên cứu về Tiểu đường (Anh). */
+
+  position: absolute;
+  width: 387px;
+  height: 76px;
+  left: 890px;
+  top: 1981px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #006498;
+}
+.p_text {
+  /* CHUYÊN GIA KHUYÊN DÙNG */
+
+  position: absolute;
+  width: 593px;
+  height: 22px;
+  left: 401px;
+  top: 2372px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.img29 {
+  /* Rectangle 29 */
+
+  position: absolute;
+  width: 464px;
+  height: 304px;
+  left: 226px;
+  top: 2474px;
+
+  background: linear-gradient(
+    116.12deg,
+    #cfb354 3.41%,
+    rgba(207, 179, 84, 0) 55.41%
+  );
+  border-radius: 10px;
+}
+.vector_one {
+  /* Vector */
+
+  position: absolute;
+  width: 80.01px;
+  height: 80px;
+  left: 440px;
+  top: 2586px;
+
+  background: #ffffff;
+}
+.p_doctor-infor {
+  /* BÁC SĨ TS : XXXXXXXX */
+
+  position: absolute;
+  width: 438px;
+  height: 14px;
+  left: 754px;
+  top: 2534px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #525252;
+}
+.infor {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốT */
+
+  position: absolute;
+  width: 432px;
+  height: 154px;
+  left: 754px;
+  top: 2572px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #525151;
+}
+.p_doctor-infor2 {
+  /* BÁC SĨ TS : XXXXXXXX */
+
+  position: absolute;
+  width: 438px;
+  height: 14px;
+  left: 248px;
+  top: 2897px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #525252;
+}
+.infor2 {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốT */
+
+  position: absolute;
+  width: 432px;
+  height: 154px;
+  left: 248px;
+  top: 2935px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #525151;
+}
+.img30 {
+  /* Rectangle 30 */
+
+  position: absolute;
+  width: 464px;
+  height: 304px;
+  left: 750px;
+  top: 2838px;
+
+  background: linear-gradient(
+    116.12deg,
+    #cfb354 3.41%,
+    rgba(207, 179, 84, 0) 55.41%
+  );
+  border-radius: 10px;
+}
+.vector_two {
+  /* Vector */
+
+  position: absolute;
+  width: 80.01px;
+  height: 80px;
+  left: 942px;
+  top: 2944px;
+
+  background: #ffffff;
+}
+.nuavong {
+  /* Rectangle 46 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 916px;
+  height: 916px;
+  left: 982px;
+  top: 2494px;
+
+  border: 100px solid rgba(218, 191, 97, 0.3);
+  border-radius: 4000px;
+}
+.p_text2 {
+  /* TRẢI NGHIỆM KHÁCH HÀNG */
+
+  position: absolute;
+  width: 593px;
+  height: 22px;
+  left: calc(50% - 593px / 2 + 0.5px);
+  top: 3301px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.img6 {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 268px;
+  top: 3403px;
+
+  background: url(.png);
+  border-radius: 146px;
+}
+.p_name {
+  /* Nguyen Thi Huyen */
+
+  position: absolute;
+  width: 300px;
+  height: 14px;
+  left: 178px;
+  top: 3563px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525252;
+}
+.p_description {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốt . Ovisure còn chứa canxi protein và chất gốc sulfate giúp dễ tiêu hóa , dễ hấp thu và phù hợp cho người có dạ dày nhạy cảm . */
+
+  position: absolute;
+  width: 352px;
+  height: 154px;
+  left: 152px;
+  top: 3601px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525151;
+}
+.img21 {
+  /* Rectangle 21 */
+
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 665px;
+  top: 3403px;
+
+  background: url(.png);
+  border-radius: 146px;
+}
+.p_name2 {
+  /* Nguyen Thi Huyen */
+
+  position: absolute;
+  width: 319px;
+  height: 14px;
+  left: 565px;
+  top: 3563px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525252;
+}
+.p_description2 {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốt . Ovisure còn chứa canxi protein và chất gốc sulfate giúp dễ tiêu hóa , dễ hấp thu và phù hợp cho người có dạ dày nhạy cảm . */
+
+  position: absolute;
+  width: 348px;
+  height: 154px;
+  left: 551px;
+  top: 3601px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525151;
+}
+.img22 {
+  /* Rectangle 22 */
+
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 1052px;
+  top: 3403px;
+
+  background: url(.png);
+  border-radius: 146px;
+}
+.p_name3 {
+  /* Nguyen Thi Huyen */
+
+  position: absolute;
+  width: 295px;
+  height: 14px;
+  left: 965px;
+  top: 3563px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525252;
+}
+.p_description3 {
+  /* Ovisure Gold là sản phẩm dành cho bệnh nhân gặp các vấn đề về xương khớp , sản phẩm bổ sung dinh dưỡng cao cấp có chiết xuất 100% đạm thực vật , kết hợp cùng hoạt chất Univestin cùng các loại hạt và ngũ cốc được nhập khẩu từ Mỹ và đạt chuẩn FDA giúp nâng cao sức đề kháng , hỗ trợ cải thiện sức khỏe xương khớp và tim mạch tốt . Ovisure còn chứa canxi protein và chất gốc sulfate giúp dễ tiêu hóa , dễ hấp thu và phù hợp cho người có dạ dày nhạy cảm . */
+
+  position: absolute;
+  width: 352px;
+  height: 154px;
+  left: 936px;
+  top: 3601px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #525151;
+}
+.healthy_yourself {
+  /* CẨM NANG SỨC KHỎE */
+
+  position: absolute;
+  width: 593px;
+  height: 22px;
+  left: 401px;
+  top: 3853px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.img1899 {
+  /* Rectangle 1899 */
+
+  position: absolute;
+  width: 368px;
+  height: 240px;
+  left: 152px;
+  top: 3955px;
+
+  background: url(.jpg), #a6a295;
+  border-radius: 10px;
+}
+.p_language {
+  /* Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. */
+
+  position: absolute;
+  width: 368px;
+  height: 55px;
+  left: 152px;
+  top: 4219px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #383434;
+}
+.p_conti1 {
+  /* Xem thêm */
+
+  position: absolute;
+  width: 85px;
+  height: 11px;
+  left: 152px;
+  top: 4312px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #6b6b6b;
+}
+.muiten1 {
+  /* Vector */
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 235px;
+  top: 4330px;
+
+  background: #6b6b6b;
+}
+.vongcung {
+  /* Rectangle 47 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 881px;
+  height: 881px;
+  left: -470px;
+  top: 3585px;
+
+  border: 50px solid rgba(6, 2, 1, 0.1);
+  border-radius: 4000px;
+}
+.img1900 {
+  /* Rectangle 1900 */
+
+  position: absolute;
+  width: 368px;
+  height: 240px;
+  left: 536px;
+  top: 3955px;
+
+  background: url(.jpg), #a6a295;
+  border-radius: 10px;
+}
+.p_language2 {
+  /* Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. */
+
+  position: absolute;
+  width: 368px;
+  height: 55px;
+  left: 536px;
+  top: 4219px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #383434;
+}
+.p_conti2 {
+  /* Xem thêm */
+
+  position: absolute;
+  width: 85px;
+  height: 11px;
+  left: 536px;
+  top: 4312px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #6b6b6b;
+}
+.muiten2 {
+  /* Vector */
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 620px;
+  top: 4328px;
+
+  background: #6b6b6b;
+}
+.img1901 {
+  /* Rectangle 1901 */
+
+  position: absolute;
+  width: 368px;
+  height: 240px;
+  left: 920px;
+  top: 3955px;
+
+  background: url(.jpg), #a6a295;
+  border-radius: 10px;
+}
+.p_language3 {
+  /* Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. */
+
+  position: absolute;
+  width: 368px;
+  height: 55px;
+  left: 920px;
+  top: 4219px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #383434;
+}
+
+.p_conti3 {
+  /* Xem thêm */
+
+  position: absolute;
+  width: 85px;
+  height: 11px;
+  left: 920px;
+  top: 4312px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #6b6b6b;
+}
+.muiten3 {
+  /* Vector */
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1005px;
+  top: 4327px;
+
+  background: #6b6b6b;
+}
+.buy_product {
+  /* ĐẶT MUA SẢN PHẨM */
+
+  position: absolute;
+  width: 593px;
+  height: 22px;
+  left: calc(50% - 593px / 2 + 0.5px);
+  top: 4447px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  color: #383434;
+}
+.tamgiac {
+  /* Rectangle 50 */
+
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 0;
+  top: 4500px;
+  z-index: -999;
+  background: rgba(235, 207, 111, 0.5);
+  border-radius: 400px 400px 0px 0px;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+.medicine_vip {
+  /* new1 copy 2 */
+  z-index: 1;
+  position: absolute;
+  width: 523px;
+  height: 558px;
+  left: 227px;
+  top: 4556px;
+}
+.p_mp1 {
+  /* SỮA HẠT XƯƠNG KHỚP OVISURE GOLD GIÚP CẢI THIỆN CÁC VẤN ĐỀ VỀ XƯƠNG KHỚP */
+
+  position: absolute;
+  width: 509px;
+  height: 40px;
+  left: 757px;
+  top: 4565px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #01385f;
+}
+.group65 {
+  /* Group 65 */
+
+  position: absolute;
+  width: 500px;
+  height: 446px;
+  left: 750px;
+  top: 4635px;
+}
+.p_mp1_reserver {
+  /* SỮA HẠT XƯƠNG KHỚP OVISURE GOLD GIÚP CẢI THIỆN CÁC VẤN ĐỀ VỀ XƯƠNG KHỚP */
+
+  position: absolute;
+  width: 509px;
+  height: 40px;
+  left: 200px;
+  top: 5230px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #01385f;
+}
+.group651 {
+  /* Group 64 */
+
+  position: absolute;
+  width: 500px;
+  height: 446px;
+  left: 189px;
+  top: 5303px;
+}
+.medicine_vip_reserver {
+  /* Bản sao của IMG_5135 copy_resize copy 1 */
+
+  position: absolute;
+  width: 446px;
+  height: 450px;
+  left: 707px;
+  top: 5289px;
+}
+.cerkle_reserver {
+  /* Rectangle 56 */
+  z-index: -999;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  right: 0px;
+  top: 5200px;
+
+  background: #f5e4ac;
+  border-radius: 400px 400px 0px 0px;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.help_doctor {
+  /* team-doctors 1 */
+
+  position: absolute;
+  width: 1440px;
+  height: 579.73px;
+  left: 0px;
+  top: 5868px;
+}
+.p_test {
+  /* HỎI ĐÁP CHUYÊN GIA */
+
+  position: absolute;
+  width: 369px;
+  height: 17px;
+  left: calc(50% - 200px / 2 + 352.5px);
+  top: 5974px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #383434;
+}
+.div_one {
+  /* Group 61 */
+
+  position: absolute;
+  width: 400px;
+  height: 63px;
+  left: 888px;
+  top: 6038px;
+}
+.div_two {
+  /* Group 60 */
+
+  position: absolute;
+  width: 400px;
+  height: 63px;
+  left: 888px;
+  top: 6113px;
+}
+.div_three {
+  /* Group 62 */
+
+  position: absolute;
+  width: 400px;
+  height: 81px;
+  left: 888px;
+  top: 6188px;
+}
+.submit {
+  /* Group 59 */
+
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  left: 888px;
+  top: 6293px;
+}
+.log_1 {
+  /* 2 2 */
+
+  position: absolute;
+  width: 210px;
+  height: 177px;
+  left: 152px;
+  top: 6515px;
+}
+.p_company {
+  /* Contact company */
+
+  position: absolute;
+  width: 384px;
+  height: 11px;
+  left: 440px;
+  top: 6530px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #1e1e1e;
+}
+.vector_map {
+  /* Vector */
+
+  position: absolute;
+  width: 10px;
+  height: 13px;
+  left: 445px;
+  top: 6579px;
+
+  background: #fffae8;
+}
+.vector_2 {
+  /* Vector */
+
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  left: 444px;
+  top: 6606px;
+
+  background: #fffae8;
+}
+.vector_email {
+  /* Vector */
+
+  position: absolute;
+  width: 11.98px;
+  height: 8.97px;
+  left: 444px;
+  top: 6637px;
+
+  background: #fffae8;
+}
+.text-map {
+  /* Trung tâm Ngoại ngữ Galaxy 500 Đại Lộ Bình Dương, thị xã Thủ Dầu Một, tỉnh Bình Dương Điện thoại: (+84-28) 38982748 Email: ictsaigon@ictvietnam.com.vn */
+
+  position: absolute;
+  width: 389px;
+  height: 151px;
+  left: 467px;
+  top: 6557px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 200% */
+
+  color: #1e1e1e;
+}
+.hetclass {
+  /* Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh */
+
+  position: absolute;
+  width: 380px;
+  height: 27px;
+  left: 920px;
+  top: 6528px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  color: #1e1e1e;
+}
+.facebook {
+  /* Vector */
+
+  position: absolute;
+  height: 32px;
+  left: 72.89%;
+  right: 33.89%;
+  top: 6577px;
+
+  background: #1e1e1e;
+}
+.instar {
+  /* Vector */
+
+  position: absolute;
+  width: 31px;
+  height: 32px;
+  left: 968px;
+  top: 6577px;
+
+  background: #1e1e1e;
+}
+.phone {
+  /* Vector */
+
+  position: absolute;
+  width: 33px;
+  height: 32px;
+  left: 1015px;
+  top: 6577px;
+
+  background: #1e1e1e;
+}
+.finally {
+  /* Copyright © 2022 Atecvietnam. Đã đăng ký Bản quyền */
+
+  position: absolute;
+  width: 1262px;
+  height: 17px;
+  left: 0;
+  padding: 7px 0;
+  top: 6767px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #1e1e1e;
+  background-color: rgb(210, 192, 30);
+  opacity: 0.8;
+}
