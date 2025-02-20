@@ -1,29 +1,35 @@
 :root {
   /* background-color: rgb(210, 192, 30); */
-  background-color: #f5e4ac;
+  /* background-color: #f5e4ac; */
   box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-size: 62.5%; */
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+* {
+  box-sizing: border-box;
 }
 .png_group3 {
+  /* Group 3 */
+
   position: absolute;
   width: 239px;
   height: 40px;
-  top: 25px;
   left: 283px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
+  top: 25px;
 }
 .png_lg1 {
+  /* logo trang 1 */
+
   position: absolute;
   width: 108.75px;
   height: 80px;
+  left: calc(50% - 108.75px / 2 + 0.38px);
   top: 5px;
-  left: 666px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
+
+  background: url("logo trang 1");
 }
 .png_group14 {
   /* Group 14 */
@@ -31,39 +37,44 @@
   position: absolute;
   width: 272.38px;
   height: 40px;
-  left: 922px;
+  right: 245.62px;
   top: 25px;
 }
-.main_container {
-}
-.navigation {
+.rectangle_1 {
+  /* Rectangle 1 */
+
   position: absolute;
   width: 100%;
-  max-width: 1440px;
   height: 50px;
   left: 0px;
   top: 90px;
+
   background: #ffffff;
 }
-.navigation_wrap {
-  width: 846px;
-  height: 17px;
-  top: 110px;
-  left: 297px;
-  gap: 42px;
-  opacity: 0px;
+.Frame_1 {
+  /* Frame 1 */
+
+  /* Auto layout */
   display: flex;
   flex-direction: row;
-  font-size: 15px;
-  margin-left: 290px;
+  align-items: center;
+  padding: 0px;
+  gap: 42px;
+
+  position: absolute;
+  width: 846px;
+  height: 17px;
+  left: calc(50% - 846px / 2);
+  top: 110px;
 }
 .Group17 {
+  /* Group 17 */
+
   position: absolute;
-  width: 1263px;
-  object-fit: contain;
+  width: 100%;
   height: 501px;
   left: 0px;
-  top: 108px;
+  top: 0;
 }
 .text_label {
   position: absolute;
@@ -76,8 +87,7 @@
   font-weight: 700;
   font-size: 42px;
   line-height: 40px;
-  leading-trim: both;
-  text-edge: cap;
+
   color: #383434;
 }
 .p {
@@ -99,8 +109,6 @@
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #383434;
 }
@@ -117,8 +125,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
-  leading-trim: both;
-  text-edge: cap;
+
   color: #383434;
 }
 .text_label2 {
@@ -140,8 +147,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #01385f;
 }
@@ -165,8 +170,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-decoration-line: line-through;
 
   color: #383434;
@@ -189,28 +193,18 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   text-align: center;
 }
 .title {
-  /* Men ống vi sinh Bio-meracine */
-
-  position: absolute;
-  width: 593px;
+  position: relative;
+  /* width: 593px; */
   height: 22px;
-  left: 360px;
+  /* left: 360px; */
   top: 720px;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 26px;
-  /* or 81% */
-  /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
-
   color: #383434;
 }
 
@@ -253,8 +247,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #383434;
@@ -278,8 +271,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525151;
@@ -367,8 +359,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #383434;
@@ -392,8 +383,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525151;
@@ -469,8 +459,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #01385f;
@@ -494,8 +483,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #006498;
@@ -519,8 +507,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #006498;
@@ -553,8 +540,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #006498;
@@ -578,8 +564,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #006498;
@@ -603,8 +588,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #006498;
@@ -628,8 +612,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #383434;
@@ -680,8 +663,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #525252;
 }
@@ -704,8 +685,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #525151;
 }
@@ -728,8 +707,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #525252;
 }
@@ -752,8 +729,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
 
   color: #525151;
 }
@@ -784,27 +759,14 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   background: #ffffff;
 }
-.nuavong {
-  /* Rectangle 46 */
 
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 916px;
-  height: 916px;
-  left: 982px;
-  top: 2494px;
-
-  border: 100px solid rgba(218, 191, 97, 0.3);
-  border-radius: 4000px;
-}
 .p_text2 {
   /* TRẢI NGHIỆM KHÁCH HÀNG */
 
   position: absolute;
   width: 593px;
   height: 22px;
-  left: calc(50% - 593px / 2 + 0.5px);
+  left: 401px;
   top: 3301px;
 
   font-family: "Montserrat";
@@ -817,8 +779,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #383434;
@@ -854,8 +815,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525252;
@@ -879,8 +839,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525151;
@@ -916,8 +875,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525252;
@@ -941,8 +899,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-  leading-trim: both;
-  text-edge: cap;
+
   text-align: center;
 
   color: #525151;
@@ -973,13 +930,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  /* or 130% */
-  /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
 
   color: #525252;
@@ -998,13 +949,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  /* or 129% */
-  /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
 
   color: #525151;
@@ -1023,13 +968,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 32px;
   line-height: 26px;
-  /* or 81% */
-  /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
 
   color: #383434;
@@ -1060,13 +999,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  /* or 138% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #383434;
 }
@@ -1084,13 +1016,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #6b6b6b;
 }
@@ -1101,9 +1026,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 20px;
   height: 20px;
   left: 235px;
-  top: 4330px;
-
-  background: #6b6b6b;
+  top: 4316px;
 }
 .vongcung {
   /* Rectangle 47 */
@@ -1145,13 +1068,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  /* or 138% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #383434;
 }
@@ -1169,13 +1085,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #6b6b6b;
 }
@@ -1186,9 +1095,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 20px;
   height: 20px;
   left: 620px;
-  top: 4328px;
-
-  background: #6b6b6b;
+  top: 4316px;
 }
 .img1901 {
   /* Rectangle 1901 */
@@ -1216,13 +1123,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  /* or 138% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #383434;
 }
@@ -1241,13 +1141,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #6b6b6b;
 }
@@ -1258,34 +1151,17 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 20px;
   height: 20px;
   left: 1005px;
-  top: 4327px;
-
-  background: #6b6b6b;
+  top: 4316px;
 }
 .buy_product {
   /* ĐẶT MUA SẢN PHẨM */
 
+  object-fit: contain;
   position: absolute;
   width: 593px;
-  height: 22px;
-  left: calc(50% - 593px / 2 + 0.5px);
+  height: 50px;
   top: 4447px;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 26px;
-  /* or 81% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
-  text-align: center;
-
-  color: #383434;
+  left: 424px;
 }
 .tamgiac {
   /* Rectangle 50 */
@@ -1323,13 +1199,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  /* or 130% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #01385f;
 }
@@ -1355,13 +1224,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  /* or 130% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #01385f;
 }
@@ -1383,19 +1245,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 707px;
   top: 5289px;
 }
-.cerkle_reserver {
-  /* Rectangle 56 */
-  z-index: -999;
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  right: 0px;
-  top: 5200px;
 
-  background: #f5e4ac;
-  border-radius: 400px 400px 0px 0px;
-  transform: matrix(0, 1, 1, 0, 0, 0);
-}
 .help_doctor {
   /* team-doctors 1 */
 
@@ -1404,30 +1254,20 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   height: 579.73px;
   left: 0px;
   top: 5868px;
+
+  background: url("/asset/img/team-doctors\ 1.png");
 }
+
 .p_test {
   /* HỎI ĐÁP CHUYÊN GIA */
-
   position: absolute;
+  object-fit: contain;
   width: 369px;
-  height: 17px;
-  left: calc(50% - 200px / 2 + 352.5px);
+  height: 34px;
   top: 5974px;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 26px;
-  /* or 108% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
-
-  color: #383434;
+  left: 888px;
+  gap: 0px;
+  opacity: 0px;
 }
 .div_one {
   /* Group 61 */
@@ -1488,12 +1328,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
 
   color: #1e1e1e;
 }
@@ -1504,9 +1338,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 10px;
   height: 13px;
   left: 445px;
-  top: 6579px;
+  top: 6565px;
 
-  background: #fffae8;
+  background: black;
 }
 .vector_2 {
   /* Vector */
@@ -1515,9 +1349,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 12px;
   height: 13px;
   left: 444px;
-  top: 6606px;
+  top: 6592px;
 
-  background: #fffae8;
+  background: black;
 }
 .vector_email {
   /* Vector */
@@ -1526,9 +1360,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 11.98px;
   height: 8.97px;
   left: 444px;
-  top: 6637px;
+  top: 6623px;
 
-  background: #fffae8;
+  background: black;
 }
 .text-map {
   /* Trung tâm Ngoại ngữ Galaxy 500 Đại Lộ Bình Dương, thị xã Thủ Dầu Một, tỉnh Bình Dương Điện thoại: (+84-28) 38982748 Email: ictsaigon@ictvietnam.com.vn */
@@ -1562,25 +1396,16 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
-
   color: #1e1e1e;
 }
 .facebook {
-  /* Vector */
-
   position: absolute;
+  width: 32px;
   height: 32px;
-  left: 72.89%;
-  right: 33.89%;
   top: 6577px;
-
-  background: #1e1e1e;
+  left: 920px;
+  gap: 0px;
+  opacity: 0px;
 }
 .instar {
   /* Vector */
@@ -1590,8 +1415,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   height: 32px;
   left: 968px;
   top: 6577px;
-
-  background: #1e1e1e;
 }
 .phone {
   /* Vector */
@@ -1601,8 +1424,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   height: 32px;
   left: 1015px;
   top: 6577px;
-
-  background: #1e1e1e;
 }
 .finally {
   /* Copyright © 2022 Atecvietnam. Đã đăng ký Bản quyền */
@@ -1625,4 +1446,169 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   color: #1e1e1e;
   background-color: rgb(210, 192, 30);
   opacity: 0.8;
+}
+/* CSS file giới thiệu  */
+.container__introduce {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+.container__introduce--wapper--title {
+  text-transform: uppercase;
+  width: 540px;
+  height: 79px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  /* text-align: left; */
+  color: #01385f;
+}
+.container__introduce--wapper--content {
+  width: 490px;
+  height: 193px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #2d2d2d;
+  margin-top: 20px;
+  /* text-align: left; */
+}
+.container__introduce--block {
+  position: relative;
+  width: 513px;
+  height: 478px;
+}
+.container__introduce--block--radius {
+  position: absolute;
+  width: 382px;
+  height: 382px;
+  background-color: #f4df97;
+  border-radius: 500px;
+  left: 100px;
+  top: 100px;
+}
+.container__introduce--block--ovisure {
+  position: absolute;
+  width: 421px;
+  height: 425px;
+  background: url(/asset/img/medicine1.png) no-repeat;
+  background-size: 412px 425px;
+}
+/* block 2 */
+.container__image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+}
+.img_main {
+  width: 100%;
+  height: auto;
+}
+.container__base {
+  margin-top: 80px;
+  /* margin-bottom: 100px; */
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+}
+.container__base--icon {
+  position: relative;
+  width: 503px;
+  height: 340px;
+}
+.img_5 {
+  position: absolute;
+}
+.img_icon--vector {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container__base--content {
+  width: 464px;
+  padding: 25px 50px;
+}
+.container__base--title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  color: #01385f;
+}
+.container__base--text {
+  width: 464px;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #3e3e3e;
+}
+.container__user--per {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+}
+.container__user--wapper {
+  position: absolute;
+}
+.container__user--per--information {
+  position: absolute;
+  display: flex;
+  gap: 17px;
+}
+.Group_684 {
+  width: 100vw;
+  max-width: 100%;
+}
+.container__use--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #fbf7e6;
+  border-radius: 10px;
+  padding: 15px;
+}
+.container__user--text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: left;
+  color: #ffffff;
+}
+.container__img_solder {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.container__img_solder--list {
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+}
+.container__img_solder--context {
+  width: 500px;
+}
+.container__img_solder--title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  color: #01385f;
+  text-transform: uppercase;
+}
+.container__img_solder--text {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #3E3E3E;
 }

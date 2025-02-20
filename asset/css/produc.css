@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #f6f1de;
+}
+
+.header-list {
+  background-color: rgb(222, 202, 71);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px 0;
+  list-style: none;
+  background: white;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  color: #626262;
+  font-size: 12px;
+}
+.main-container {
+  background-color: #f6f1de;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.main-product {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.main-product__advertisement {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0 40px 0;
+  background: linear-gradient(90deg, #dcb483 69%, rgba(220, 180, 131, 0) 95%);
+  background-color: #fffae8;
+  border-radius: 10px;
+}
+.main-product__text {
+  width: 612px;
+  padding: 95px 0;
+}
+.main-product__small {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 67px;
+  color: #01385f;
+}
+.main-product__image {
+  /* width: 470px; */
+  height: 260px;
+  /* margin-left: -280px; */
+}
+.main-product__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.main-product__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.main-product__list__item__image {
+  width: 368px;
+  height: 600px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+.medecine__1 {
+  display: block;
+  margin: auto;
+  padding: 65px 70px 31px 75px;
+  background-color: #f9ebae;
+  border-radius: 10px;
+}
+.medecine__2 {
+  display: block;
+  margin: auto;
+  padding: 46px 55px 12px 65px;
+  background-color: #f9ebae;
+  border-radius: 10px;
+}
+.mg-1,
+.main-product__list__item__text {
+  color: #01385f;
+  font-size: 20px;
+  margin: 20px 0 10px;
+  font-weight: 700;
+}
+.main-product__list__description {
+  color: #525151;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.main-product__list__btn {
+  display: block;
+  margin: auto;
+  background-color: #11629c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.vector_s {
+  /* Vector */
+
+  position: absolute;
+  width: 522px;
+  height: 452px;
+  left: 154px;
+  top: 1391px;
+  z-index: 1;
+}
+.vector_o {
+  /* Vector */
+  box-sizing: border-box;
+  position: absolute;
+  width: 293px;
+  height: 120px;
+  left: 183px;
+  top: 1323px;
+  z-index: 2;
+}
+.vector_o_r {
+  z-index: 2;
+  position: absolute;
+  width: 293px;
+  height: 120px;
+  top: 1654px;
+  left: 365px;
+}
+.medecine1__infor {
+  z-index: 2;
+  position: absolute;
+  width: 229px;
+  height: 230px;
+  left: 447px;
+  top: 1318px;
+}
+.medecine2__infor {
+  z-index: 2;
+  position: absolute;
+  width: 275px;
+  height: 294px;
+  left: 147px;
+  top: 1640px;
+}
+.main-product-infor__text__description_left {
+  /* SỮA HẠT XƯƠNG KHỚP OVISURE GOLD GIÚP CẢI THIỆN CÁC VẤN ĐỀ VỀ XƯƠNG KHỚP */
+
+  position: absolute;
+  width: 226px;
+  height: 70px;
+  left: 200px;
+  top: 1342px;
+  z-index: 2;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0b5215;
+}
+.main-product-infor__text__description_right {
+  /* SỮA HẠT XƯƠNG KHỚP OVISURE GOLD GIÚP CẢI THIỆN CÁC VẤN ĐỀ VỀ XƯƠNG KHỚP */
+  z-index: 2;
+  position: absolute;
+  width: 226px;
+  height: 70px;
+  left: 421px;
+  top: 1670px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #006498;
+}
+.group_702 {
+  max-width: 100%;
+  width: 1141px;
+  height: 616px;
+  object-fit: contain;
+}
+.footer_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  background: #f5e4ac;
+  padding: 82px 110px 85px 20px;
+}
+.footer_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  flex: 1;
+}
+.footer_content-item {
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.item {
+  width: 12px;
+  height: 13px;
+  background-color: black;
+  margin-top: 8px;
+}
+.footer_content-item-content {
+  margin-left: 10px;
+}
+.footer_content-address__icon {
+  display: flex;
+  gap: 16px;
+  margin-top: 22px;
+}
+.footer_finally {
+  background-color:   #E4B411;
+}
+.footer_finally__text {
+  padding: 19px 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: center;
+}

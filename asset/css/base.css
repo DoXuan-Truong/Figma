@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.banner {
+  background-color: #f4df97;
+  height: 600px;
+  display: flex; /* Sử dụng flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+  position: relative; /* Thiết lập để con có thể dùng absolute nếu cần */
+  gap: 50px; /* Khoảng cách giữa các phần tử con */
+  border-radius: 0 0 50px 50px;
+}
+
+.banner__content {
+  max-width: 50%; /* Giới hạn độ rộng của nội dung */
+  text-align: left;
+}
+
+.banner__img {
+  max-width: 50%; /* Giới hạn độ rộng của hình ảnh */
+  position: relative;
+}
+
+.banner__content--title {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #01385f;
+}
+
+.banner__content--text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #383434;
+  margin-top: 20px;
+}
+
+.banner-price {
+  margin-top: 20px;
+}
+
+.banner__content--button {
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  border-radius: 40px;
+  background-color: #006498;
+  outline: none;
+  border: none;
+}
+
+.banner__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+.banner__content--img-695 {
+  margin-top: 30px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.banner__img_md1 {
+  position: relative;
+  width: 421px;
+  height: 425px;
+  z-index: 2;
+}
+
+.banner__img-img {
+  position: absolute;
+  width: 460px;
+  height: 368px;
+  left: 0;
+  top: 100px;
+  z-index: 1;
+  background: #e0bf4f;
+  border-radius: 300px 300px 0px 0px;
+}
+.container-parent {
+  position: relative; /* Thiết lập cha làm hệ quy chiếu */
+  width: 100%; /* Chiều rộng của phần tử cha */
+  height: 100vh; /* Chiều cao của phần tử cha */
+}
+
+.container__details {
+  position: absolute;
+  width: 1136px;
+  height: 571px;
+  top: 20%; /* Căn giữa theo chiều dọc */
+  left: 50%; /* Căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* Đưa tâm phần tử vào giữa màn hình */
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  z-index: 2;
+}
+.container__details--wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.container__details--title {
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px 0 40px 0;
+}
+.infor1 {
+  background-color: #f4df97;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.infor2 {
+  background-color: #f6f1de;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.infor3 {
+  background-color: #f6f1de;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.container__wapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 550px;
+  text-align: center;
+  margin: 40px 0 80px 0;
+}
+.container__wapper--list {
+  width: 284px;
+  height: 250px;
+  padding: 20px 40px;
+}
+.group_709 {
+  margin-bottom: 40px;
+}
+.block_1 {
+  background-color: #fff2c7;
+}
+.block_2 {
+  background-color: #feebab;
+}
+.block_3 {
+  background-color: #fbdf7f;
+}
+.block_4 {
+  background-color: #f1d167;
+}
+.container__explore {
+  position: relative; /* Hệ quy chiếu cho các phần tử con */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 560px; /* Khoảng cách từ phía trên */
+}
+
+.reg_29 {
+  position: relative; /* Không cần tuyệt đối vì đây là ảnh nền chính */
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+  z-index: 1; /* Đặt ở dưới */
+}
+
+.vector_auto {
+  position: absolute; /* Vị trí tuyệt đối để chồng lên */
+  width: 120px;
+  height: 120px;
+  top: 50%; /* Căn giữa theo chiều dọc */
+  left: 50%; /* Căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* Dịch chuyển để căn giữa chính xác */
+  z-index: 2; /* Đặt phía trên */
+}
+/* Container tổng */
+.container__customer {
+  border-radius: 20px;
+  border: none;
+  background-color: #ffffff;
+  width: 1136px;
+  height: 814px;
+  margin: 0 auto; /* Căn giữa theo chiều ngang */
+  position: relative;
+  top: 600px;
+  padding: 40px; /* Khoảng cách bên trong */
+}
+
+/* Tiêu đề */
+.container__customer--title {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #181e76;
+  margin-bottom: 20px;
+}
+
+/* Khối đánh giá */
+.container__customer--rate {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #f1d167;
+  padding: 20px;
+}
+
+/* Nội dung đánh giá */
+.container__customer--rate--content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Văn bản và thanh tỷ lệ */
+.perfect {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  width: 109px;
+}
+
+.percent {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  width: 58px;
+}
+
+/* Thanh tỷ lệ */
+.nav_opacity {
+  width: 300px;
+  height: 12px;
+  background: linear-gradient(to right, #f7931e, #ffd700);
+}
+
+.nav {
+  width: 300px;
+  height: 12px;
+  background: #d9d9d9;
+}
+
+/* Nút đánh giá */
+.container__customer--rate--button {
+  width: 220px;
+  height: 45px;
+  text-align: center;
+  border: none;
+  background-color: #006498;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 45px;
+  color: #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: auto;
+}
+
+.container__customer--rate--button:hover {
+  background-color: #004b70;
+}
+
+/* Văn bản bổ sung */
+.container__customer--rate--text {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  line-height: 40px;
+}
+.container__assess {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+  padding-top: 80px;
+}
+.container__assess--text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.container__back {
+  position: relative;
+  top: 600px;
+  width: 100%; /* Chiều rộng container */
+  text-align: center; /* Căn giữa nội dung con theo chiều ngang */
+}
+
+.h1-title {
+  position: relative; /* Không sử dụng absolute để nó nằm cách biệt ảnh */
+  margin: 80px 0 65px 0; /* Tạo khoảng cách 80px dưới tiêu đề */
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img-back {
+  position: relative;
+  max-width: 80%; /* Giới hạn chiều rộng ảnh */
+  height: auto; /* Tự động giữ tỷ lệ hình ảnh */
+}
+.container__girl--smile {
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  top: 600px;
+  width: 1142px;
+  height: 300px;
+  background: linear-gradient(90deg, #f3d773 0%, #007ab9 100%);
+}
+.reg_aqua {
+  /* Rectangle 1954 */
+
+  position: absolute;
+  width: 300px;
+  height: 263px;
+  background: #66adca;
+  border-radius: 300px 300px 0px 0px;
+  transform: translate(-100%, -43%);
+}
+.gir_2 {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-120%, -46%);
+}
+.container__girl--smile-text {
+  /* Nhận tư vấn miễn phí */
+
+  width: 363px;
+  height: 36px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  text-align: center;
+
+  color: #ffffff;
+}
+.container__girl--button {
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: 196px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: #006498;
+  margin-top: 19px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+/* CSS TIN TỨC */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+.grid-list h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.grid-list p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #525151;
+}
+.grid-list button {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #cfb354;
+  border-radius: 40px;
+  border: 1px solid #cfb354;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+}
+.container__helper {
+  width: 60%;
+  margin: 32px auto;
+}
+.container__helper--block {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+.container__helper--title {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #383434;
+}
+.container__helper--text {
+  margin: 48px 0 40px 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #525151;
+}
+.container__helper--form {
+  background-color: #f4ebcb;
+  padding: 24px 24px 1px 24px;
+  border-radius: 10px;
+}
+.container__helper--form h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 15px;
+
+  color: #383434;
+}
+.container__helper--form p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  text-align: left;
+  margin: 9px 0;
+  color: #535353;
+}
+.container__helper--form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.container__helper--form button {
+  padding: 15px 30px;
+  color: #ffffff;
+  background-color: #cfb354;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+.container__helper--totorial {
+  margin-top: 60px;
+}
+.container__helper--totorial--title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #383434;
+  margin-bottom: 20px;
+
+}
+.container__helper--totorial--flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #e5ce7c33;
+  margin-bottom: 20px;
+}
+.container__helper--totorial--text {
+  padding: 20px;
+  color: #383434;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
